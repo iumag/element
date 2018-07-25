@@ -189,8 +189,7 @@
 
       readonly() {
         // trade-off for IE input readonly problem: https://github.com/ElemeFE/element/issues/10403
-        const isIE = !this.$isServer && !isNaN(Number(document.documentMode));
-        return !this.filterable || this.multiple || !isIE && !this.visible;
+        return !this.filterable || this.multiple && !this.visible;
       },
 
       iconClass() {
@@ -736,6 +735,7 @@
             this.menuVisibleOnFocus = false;
           } else {
             this.visible = !this.visible;
+            this.setSoftFocus();
           }
           if (this.visible) {
             (this.$refs.input || this.$refs.reference).focus();
