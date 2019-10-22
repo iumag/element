@@ -142,6 +142,7 @@
       value: [String, Number],
       size: String,
       resize: String,
+      minHeight: String,
       form: String,
       disabled: Boolean,
       readonly: Boolean,
@@ -314,7 +315,7 @@
         if (type !== 'textarea') return;
         if (!autosize) {
           this.textareaCalcStyle = {
-            minHeight: this.textareaCalcStyle.minHeight || calcTextareaHeight(this.$refs.textarea).minHeight
+            minHeight: this.minHeight || calcTextareaHeight(this.$refs.textarea).minHeight
           };
           return;
         }
