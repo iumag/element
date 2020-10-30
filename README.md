@@ -36,6 +36,12 @@
   </a>
 </p>
 
+> A Vue.js 2.0 UI Toolkit for Web.
+
+Element will stay with Vue 2.x 
+
+For Vue 3.0, we recommend using [Element Plus](https://github.com/element-plus/element-plus) from the same team
+
 <p align="center">
   <b>Special thanks to the generous sponsorship by:</b>
 </p>
@@ -60,8 +66,6 @@
     </tr>
   </tbody>
 </table>
-
-> A Vue.js 2.0 UI Toolkit for Web.
 
 ## Links
 - Homepage and documentation
@@ -153,6 +157,10 @@ Spanish documentation is made possible by these community developers:
 - [sigfriedCub1990](https://github.com/sigfriedCub1990)
 - [thechosenjuan](https://github.com/thechosenjuan)
 
+French documentation is made possible by these community developers:
+- [smalesys](https://github.com/smalesys)
+- [blombard](https://github.com/blombard)
+
 ## Donation
 If you find Element useful, you can buy us a cup of coffee
 
@@ -229,11 +237,11 @@ Become a sponsor and get your logo on our README on Github with a link to your s
 <a href="https://opencollective.com/element/sponsor/28/website" target="_blank"><img src="https://opencollective.com/element/sponsor/28/avatar.svg"></a>
 <a href="https://opencollective.com/element/sponsor/29/website" target="_blank"><img src="https://opencollective.com/element/sponsor/29/avatar.svg"></a>
 
-## Join Discusion Group
+## Join Discussion Group
 
-Scan the QR code using [Dingtalk App](https://www.dingtalk.com/) to join in discusion group :
+Scan the QR code using [Dingtalk App](https://www.dingtalk.com/) to join in discussion group :
 
-<img alt="Join Discusion Group" src="https://user-images.githubusercontent.com/17680888/54505885-e3e54c00-4974-11e9-94b9-4c13644fcd98.png" width="300">
+<img alt="Join Discusion Group" src="https://user-images.githubusercontent.com/17680888/93177882-0ae92d80-f766-11ea-870d-3fa2d7f06454.png" width="300">
 
 
 ## LICENSE

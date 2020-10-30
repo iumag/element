@@ -69,9 +69,9 @@ Le permite definir el nivel de incremento de los saltos.
 ```
 :::
 
-### Step strictly
+### Step estrictamente
 
-:::demo The `step-strictly` attribute accepts a `boolean`. if this attribute is `true`, input value can only be multiple of step.
+:::demo El atributo `step-strictly` acepta `boolean`. Si este atributo es `true`, el valor de entrada sólo puede ser múltiplo de step.
 
 ```html
 <template>
@@ -89,9 +89,9 @@ Le permite definir el nivel de incremento de los saltos.
 ```
 :::
 
-### Precision
+### Precisión
 
-:::demo Add `precision` attribute to set the precision of input value.
+:::demo El atributo `precision` aplica presición al valor del value.
 
 ```html
 <template>
@@ -111,7 +111,8 @@ Le permite definir el nivel de incremento de los saltos.
 :::
 
 :::tip
-The value of `precision` must be a non negative integer and should not be less than the decimal places of `step`.
+El valor de `precision` debe ser un numero entero positivo que no debe ser inferior a los decimales del `step`.
+
 :::
 
 ### Tamaño
@@ -173,9 +174,9 @@ Utilice el atributo `size` para establecer tamaños adicionales con `medium`, `s
 | ----------------- | ---------------------------------------- | ------- | ----------------- | ----------- |
 | value / v-model    | valor vinculado                          | number  | —                 | 0           |
 | min               | el valor mínimo permitido                | number  | —                 | `-Infinity`  |
-| max               | el valor maximo permitido                | number  | —                 | `Infinity`  |
+| max               | el valor máximo permitido          | number  | —                 | `Infinity`  |
 | step              | incremento (salto)                       | number  | —                 | 1           |
-| step-strictly  | whether input value can can only be multiple of step | number  | —                 | false       |
+| step-strictly  | si el valor del input puede ser solo un múltiplo de step | boolean  | —                 | false       |
 | precision         | precisión del valor del input | number  | —                 | —           |
 | size              | tamaño del componente                    | string  | large/small       | —           |
 | disabled          | si el componente esta deshabilitado      | boolean | —                 | false       |
@@ -183,13 +184,13 @@ Utilice el atributo `size` para establecer tamaños adicionales con `medium`, `s
 | controls-position | posición de los botones de control       | string  | right             | -           |
 | name              | lo mismo que `name` en un input nativo   | string  | —                 | —           |
 | label             | texto de la etiqueta                     | string  | —                 | —           |
-| placeholder | placeholder in input | string | - | - |
+| placeholder | placeholder en el input | string | - | - |
 
 ### Eventos
 
 | Nombre | Descripción                              | Parámetros         |
 | ------ | ---------------------------------------- | ------------------ |
-| change | se produce cuando el valor cambia        | value after change |
+| change | se produce cuando el valor cambia        | currentValue, oldValue |
 | blur   | se produce cuando el componente pierde el foco | (event: Event)     |
 | focus  | se produce cuando el componente obtiene el foco | (event: Event)     |
 

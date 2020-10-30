@@ -32,9 +32,9 @@ Los componentes de alertas no son elementos overlay de la página y no desaparec
 
 ### Theme
 
-Alert provide two different themes, `light` and `dark`.
+Alert provee dos diferentes temas  `light` y `dark`.
 
-:::demo Set `effect` to change theme, default is `light`.
+:::demo Use `effect` para cambiar el tema, por defecto es `light`.
 ```html
 <template>
   <el-alert
@@ -229,12 +229,13 @@ Descripción incluye un mensaje con información más detallada.
 | center      | si el texto debe estar centrado          | boolean | —                          | false       |
 | close-text  | texto de cerrado personalizado           | string  | —                          | —           |
 | show-icon   | si un icono del tipo de alerta se debe mostrar | boolean | —                          | false       |
-| effect | Choose theme  | string | light/dark | light |
+| effect | selecciona tema | string | light/dark | light |
 
 ### Slot
 
-| Name | Description |
+| Nombre | Descripción |
 |------|--------|
+| — | descripción |
 | title | El contenido del título de alerta. |
 
 ### Eventos
